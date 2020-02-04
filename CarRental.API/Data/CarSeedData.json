@@ -1,0 +1,18 @@
+[
+  {
+    "Manufacturer": "Hyundai",
+    "Type": "Accent",
+    "LicensePlateNumber": "JHS-146",
+    "AverageConsumption": 6,
+    "Color": "red",
+    "Fuel": "gasoline",
+    "NumberOfPassengers": 5,
+    "Photos": [
+      {
+        "url": "CarRental.API/Photos/piros_accent_csapott_h_2004_3.jpg",
+        "isMain": true,
+        "Description": "Hyundai"
+      }
+    ]
+  }
+]

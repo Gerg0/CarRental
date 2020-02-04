@@ -1,0 +1,58 @@
+[
+  {
+    "Cars": {
+      "Manufacturer": "Ford",
+      "Type": "Transit",
+      "LicensePlateNumber": "JOW-314",
+      "AverageConsumption": 9,
+      "Color": "white",
+      "Fuel": "diesel",
+      "NumberOfPassengers": 14,
+      "Photos": [
+        {
+          "url": "CarRental.API/Photos/ford_transit.jpeg",
+          "isMain": true,
+          "Description": "Ford"
+        }
+      ]
+    },
+    "Users": {
+      "Name": "Lopez",
+      "Password": "password",
+      "Address": "Poland, Nebraska, Summerset, Cobek Court",
+      "Email": "schwartzallen@viocular.com",
+      "Phone": "06709434502",
+      "DateOfBirth": "1950-03-29"
+    },
+    "StartDate": "2020-01-09",
+    "EndDate": "2020-01-16"
+  },
+  {
+    "Cars": {
+      "Manufacturer": "Opel",
+      "Type": "Corsa 1.3",
+      "LicensePlateNumber": "ITB-793",
+      "AverageConsumption": 6,
+      "Color": "gray",
+      "Fuel": "gasoline",
+      "NumberOfPassengers": 5,
+      "Photos": [
+        {
+          "url": "CarRental.API/Photos/opel_corsa.jpg",
+          "isMain": true,
+          "Description": "Opel"
+        }
+      ]
+    },
+    "Users": {
+      "Name": "Guy",
+      "Password": "password",
+      "Address": "Saint Kitts and Nevis, Louisiana, Silkworth, Banner Avenue",
+      "Email": "roxiehess@spacewax.com",
+      "Phone": "06708924893",
+      "DateOfBirth": "1973-10-07"
+    },
+    "StartDate": "2020-01-27",
+    "EndDate": "2020-02-04"
+  }
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "Name": "Kenya",
+    "Password": "password",
+    "Address": "Niger, Virgin Islands, Harrodsburg, Girard Street",
+    "Email": "harrietmorgan@avit.com",
+    "Phone": "06708374252",
+    "DateOfBirth": "1967-02-23"
+  },
+  {
+    "Name": "Bonita",
+    "Password": "password",
+    "Address": "Cocos (Keeling Islands), Virginia, Fairhaven, Rockaway Avenue",
+    "Email": "jeanniephelps@eternis.com",
+    "Phone": "06709665702",
+    "DateOfBirth": "1966-04-01"
+  },
+  {
+    "Name": "Stacie",
+    "Password": "password",
+    "Address": "Colombia, American Samoa, Orason, Pine Street",
+    "Email": "louellabrennan@permadyne.com",
+    "Phone": "06709134882",
+    "DateOfBirth": "1972-08-03"
+  },
+  {
+    "Name": "Jeannette",
+    "Password": "password",
+    "Address": "Italy, New Jersey, Yogaville, Colonial Court",
+    "Email": "knightrodgers@vitricomp.com",
+    "Phone": "06708864462",
+    "DateOfBirth": "1965-11-14"
+  },
+  {
+    "Name": "Lorrie",
+    "Password": "password",
+    "Address": "Iceland, Kansas, Idledale, Dodworth Street",
+    "Email": "agnespotts@miracula.com",
+    "Phone": "06709274002",
+    "DateOfBirth": "1973-02-04"
+  },
+  {
+    "Name": "Oneil",
+    "Password": "password",
+    "Address": "Tonga, Montana, Teasdale, Wolf Place",
+    "Email": "morganwagner@buzzworks.com",
+    "Phone": "06709305763",
+    "DateOfBirth": "1970-06-09"
+  },
+  {
+    "Name": "Buchanan",
+    "Password": "password",
+    "Address": "Bhutan, Alaska, Crucible, Noel Avenue",
+    "Email": "kerryparrish@infotrips.com",
+    "Phone": "06708185892",
+    "DateOfBirth": "1987-07-09"
+  },
+  {
+    "Name": "Wade",
+    "Password": "password",
+    "Address": "Guam, New York, Cartwright, Post Court",
+    "Email": "lizcolon@zentury.com",
+    "Phone": "06708585862",
+    "DateOfBirth": "1985-03-01"
+  }
+]
