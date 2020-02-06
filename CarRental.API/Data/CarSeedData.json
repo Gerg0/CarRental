@@ -9,7 +9,7 @@
     "NumberOfPassengers": 5,
     "Photos": [
       {
-        "url": "CarRental.API/Photos/piros_accent_csapott_h_2004_3.jpg",
+        "url": "assets/Photos/piros_accent_csapott_h_2004_3.jpg",
         "isMain": true,
         "Description": "Hyundai"
       }

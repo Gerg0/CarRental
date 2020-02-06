@@ -1,0 +1,34 @@
+<!-- <div class="card mb-4">
+  <div class="card-img-wrapper">
+  <img class="card-img-right" src="CarRental.API/Photos/ford_transit.jpeg" alt="{{car.manufacturer}}">
+  </div>
+  <div class="card-body p-1">
+  <h6 class="card-title text-center mb-1">{{car.manufacturer}} {{car.type}}</h6>
+  <ul>
+  <li>License plate number: {{car.licensePlateNumber}}</li>
+  <li>Color: {{car.color}}</li>
+  <li>Fuel type: {{car.fuel}}</li>
+  <li>Number of passengers: {{car.numberOfPassengers}}</li>
+  <li>Average consumption: {{car.averageConsumption}} l</li>
+  </ul>
+  </div>
+</div> -->
+<div class="card mb-3" style="max-width: 540px;">
+  <div class="row no-gutters">
+    <div class="col-md-4">
+    <img src="{{car.photoUrl}}" class="card-img" alt="{{car.manufacturer}}">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h6 class="card-title text-center mb-1">{{car.manufacturer}} {{car.type}}</h6>
+        <ul>
+          <li>License plate number: {{car.licensePlateNumber}}</li>
+          <li>Color: {{car.color}}</li>
+          <li>Fuel type: {{car.fuel}}</li>
+          <li>Number of passengers: {{car.numberOfPassengers}}</li>
+          <li>Average consumption: {{car.averageConsumption}} l</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>

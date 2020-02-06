@@ -12,12 +12,15 @@ import { AuthService } from './_services/auth.service';
 import { HomeComponent } from './home/home.component';
 import { RegisterComponent } from './register/register.component';
 import { ErrorInterceptorProvider } from './_services/error.interceptor';
-import { CarListComponent } from './car-list/car-list.component';
+
 import { appRoutes } from './routes';
 import { LeaseAgreementComponent } from './lease-agreement/lease-agreement.component';
 import { ContactComponent } from './contact/contact.component';
 import { RentedCarListComponent } from './rented-car-list/rented-car-list.component';
-
+import { UserService } from './_services/user.service';
+import { CarService } from './_services/car.service';
+import { CarListComponent } from './cars/car-list/car-list.component';
+import { CarCardComponent } from './cars/car-card/car-card.component';
 
 @NgModule({
    declarations: [
@@ -26,6 +29,7 @@ import { RentedCarListComponent } from './rented-car-list/rented-car-list.compon
       HomeComponent,
       RegisterComponent,
       CarListComponent,
+      CarCardComponent,
       LeaseAgreementComponent,
       ContactComponent,
       RentedCarListComponent
@@ -39,6 +43,8 @@ import { RentedCarListComponent } from './rented-car-list/rented-car-list.compon
    ],
    providers: [
       AuthService,
+      CarService,
+      UserService,
       ErrorInterceptorProvider
    ],
    bootstrap: [

@@ -10,7 +10,7 @@
       "NumberOfPassengers": 14,
       "Photos": [
         {
-          "url": "CarRental.API/Photos/ford_transit.jpeg",
+          "url": "assets/Photos/ford_transit.jpeg",
           "isMain": true,
           "Description": "Ford"
         }
@@ -38,7 +38,7 @@
       "NumberOfPassengers": 5,
       "Photos": [
         {
-          "url": "CarRental.API/Photos/opel_corsa.jpg",
+          "url": "assets/Photos/opel_corsa.jpg",
           "isMain": true,
           "Description": "Opel"
         }

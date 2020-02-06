@@ -12,6 +12,9 @@ namespace CarRental.API.Helpers
             CreateMap<User, UserForListDto>();
             CreateMap<User, UserForRentalDto>();
             CreateMap<User, RentalForListDto>();
+            CreateMap<Car, CarForListDto>()
+            .ForMember(dest => dest.PhotoUrl, opt =>
+            opt.MapFrom(scr => scr.Photos.FirstOrDefault(p => p.IsMain).Url));
             CreateMap<Car, CarForRentalDto>()
             .ForMember(dest => dest.PhotoUrl, opt =>
             opt.MapFrom(scr => scr.Photos.FirstOrDefault(p => p.IsMain).Url));
